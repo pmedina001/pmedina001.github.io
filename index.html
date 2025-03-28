@@ -29,7 +29,7 @@
     </section>
 
     <!-- About Section -->
-    <!-- Project Description Section -->
+    <!-- About the Project Section -->
   <section class="mb-10">
     <h2 class="text-2xl font-semibold mb-4">About the Project</h2>
     <p class="mb-2">
@@ -44,14 +44,56 @@
       This website provides an interactive overview of the project’s findings, visualizations, and methodology.
     </p>
   </section>
-    <!-- About the Project Section -->
+    <!-- Project Description Section -->
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4">Project Description</h2>
-      <p>
-        This project uses AI and geospatial data to predict and visualize crime hotspots across Florida.
-        Socio-economic indicators are factored in to analyze correlations and patterns. Created by <strong>pmedina001</strong>.
-      </p>
+
+      <!-- Overview -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Overview</h3>
+        <p>
+          This project investigates the use of artificial intelligence (AI) and geospatial data to predict and map crime hotspots across Florida. The core objective is to identify high-risk counties by analyzing historical crime records in conjunction with socio-economic indicators and spatial patterns. Through this approach, the project aims to enhance public safety insights and provide a framework for data-driven crime prevention strategies.
+        </p>
+      </div>
+
+      <!-- Data Sources -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Data Sources</h3>
+        <p>
+          Data was collected for all 67 counties in Florida and grouped into three regional categories: North Florida (33 counties), Central Florida (12 counties), and South Florida (22 counties). The datasets span the years 2015 to 2020.
+        </p>
+        <ul class="list-disc pl-6 mt-2">
+          <li><strong>Crime Data:</strong> Sourced from the Florida Department of Law Enforcement. Categorized into Violent Crime (Murder, Rape, Robbery, Assault) and Property Crime (Burglary, Larceny, Motor Vehicle Theft).</li>
+          <li><strong>Socio-Economic Data:</strong> Sourced from the U.S. Census Bureau. Factors include Median Household Income, Poverty Rates, Employment Rates, Educational Attainment, Housing Units, and Population Density.</li>
+          <li><strong>Geospatial Data:</strong> County boundaries and mapping coordinates used to visualize regional variations in crime and socio-economic conditions.</li>
+        </ul>
+      </div>
+      
+      
+      <!-- Approach -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Approach</h3>
+        <p>
+          After cleaning and transforming the datasets, exploratory data analysis (EDA) was conducted to identify trends, anomalies, and relationships between variables. Crime and socio-economic data were merged at the county level, enabling correlation analysis to uncover which factors were most predictive of crime.
+        </p>
+        <p class="mt-2">
+          The insights from EDA and correlation studies informed the selection of input variables for machine learning models. These models were designed to forecast potential crime hotspots and support spatial visualization of high-risk regions.
+        </p>
+      </div>
+
+      <!-- Tools & Technologies -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Tools & Technologies</h3>
+        <ul class="list-disc pl-6">
+          <li><strong>R Studio:</strong> For data wrangling, statistical analysis, and correlation heatmaps</li>
+          <li><strong>Leaflet.js:</strong> For creating interactive maps in the web interface</li>
+          <li><strong>Tailwind CSS:</strong> For responsive styling of the website</li>
+          <li><strong>GitHub Pages:</strong> For hosting and sharing the project site publicly</li>
+        </ul>
+      </div>
     </section>
+
+    
   </main>
 
   <footer class="bg-blue-900 text-white text-center p-4">
