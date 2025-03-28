@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crime Hotspot Detection</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-900 text-white p-6">
+    <h1 class="text-3xl font-bold">Crime Hotspot Detection in Florida</h1>
+    <p class="mt-2 text-lg">Visualizing AI-driven crime patterns with socio-economic factors</p>
+  </header>
+
+  <main class="p-6">
+    <!-- Map Section -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Crime Heatmap</h2>
+      <div id="map" class="w-full h-96 rounded shadow"></div>
+    </section>
+
+    <!-- Chart Section Placeholder -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Data Insights</h2>
+      <p class="mb-2">Charts and socio-economic data visualizations will go here.</p>
+      <div class="bg-white p-4 rounded shadow text-center text-gray-500">Coming soon: crime trends, socio-economic overlays, etc.</div>
+    </section>
+
+    <!-- About Section -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">About the Project</h2>
+      <p>
+        This project uses AI and geospatial data to predict and visualize crime hotspots across Florida.
+        Socio-economic indicators are factored in to analyze correlations and patterns. Created by <strong>pmedina001</strong>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-blue-900 text-white text-center p-4">
+    &copy; 2025 Crime Hotspot Detection | Built with Leaflet, TailwindCSS & AI
+  </footer>
+
+  <script>
+    const map = L.map('map').setView([27.9944, -81.7603], 6); // Centered on Florida
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Example Marker - replace with geoJSON or heatmap data later
+    L.marker([25.7617, -80.1918]).addTo(map)
+      .bindPopup('Example: Miami Crime Spot')
+      .openPopup();
+  </script>
+</body>
+</html>
