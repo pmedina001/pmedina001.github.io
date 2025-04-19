@@ -38,10 +38,10 @@
     </p>
     <p class="mt-2">
       By integrating historical crime data with socio-economic indicators such as poverty, employment, education, and housing, the project identifies patterns that can inform proactive safety measures.
-      The work is supervised by Dr. Levente Juhasz of Florida International University and aims to showcase how AI models, combined with spatial insights, can enhance crime prediction and policy planning.
+      The work was supervised by Dr. Levente Juhasz of Florida International University and aims to showcase how AI models, combined with spatial insights, can enhance crime prediction and policy planning.
     </p>
     <p class="mt-2">
-      This website provides an interactive overview of the project’s findings, visualizations, and methodology.
+      This website provides an interactive overview of the project’s findings, visualizations, and methodology. This website outlines the project in a manner that it can be reporduced.
     </p>
   </section>
     <!-- Project Description Section -->
@@ -66,14 +66,18 @@
           <strong>South Florida</strong> (<strong>22 counties</strong>). 
           The datasets span the years of 2015 to 2020.
         </p>
-        <ul class="list-disc pl-6 mt-2">
+        <ul class="list-disc pl-6 mt-4 space-y-2">
           <li>
             <strong>
               <a href="https://www.fdle.state.fl.us/CJAB/UCR/Annual-Reports/UCR-Offense-Data" target="_blank" class="text-blue-700 hover:underline">
                 Florida Department of Law Enforcement (FDLE)
               </a> – Crime Data:
             </strong>
-            Sourced from FDLE. Each crime fell into one of two categories: <strong>Violent Crime</strong> (<strong>Murder, Rape, Robbery, Assault</strong>) and <strong>Property Crime</strong> (<strong>Burglary, Larceny, Motor Vehicle Theft</strong>).
+            <ul class="list-disc pl-6 mt-1">
+              <li>Violent Crime: <strong>Murder, Rape, Robbery, Assault</strong></li>
+              <li>Property Crime: <strong>Burglary, Larceny, Motor Vehicle Theft</strong></li>
+              <li>Time Range: 2015-2020</li>
+            </ul>  
           </li>
           <li>
             <strong>
@@ -81,7 +85,15 @@
                 U.S. Census Bureau
               </a> – Socio-Economic Data:
             </strong>
-            Sourced from the U.S. Census Bureau. Includes data for the following factors: <strong>Median Household Income, Poverty Rates, Employment Rates, Educational Attainment, Housing Units,</strong> and <strong>Population Density</strong>.
+            <ul class="list-disc pl-6 mt-1">
+              <li><strong>Median Household Income</strong></li>
+              <li><strong>Poverty Rates</strong></li>
+              <li><strong>Employment Rates</strong></li>
+              <li><strong>Educational Attainment Levels</strong> (Bachelor's degree or higher)</li>
+              <li><strong>Housing Units</strong></li>
+              <li><strong>Population Density</strong></li>
+              <li>Time Range: 2015-2020</li>
+            </ul>
           </li>
           <li>
             <strong>
@@ -89,7 +101,10 @@
                 U.S. Census Geospatial Mapping Files
               </a> – Geospatial Data:
             </strong>
-            Used to visualize county boundaries and align socio-economic and crime data spatially.
+            <ul class="list-disc pl-6 mt-1">
+              <li>County-level shapefiles for Florida</li>
+              <li>Used to spatially align socio-economic and crime data</li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -99,7 +114,7 @@
       <div class="mb-6">
         <h3 class="text-xl font-semibold mb-2">Approach</h3>
         <p>
-          After cleaning and transforming the datasets, exploratory data analysis (EDA) was conducted to identify trends, anomalies, and relationships between variables. Crime and socio-economic data were merged at the county level, enabling correlation analysis to uncover which factors were most predictive of crime.
+          After 
         </p>
         <p class="mt-2">
           The insights from EDA and correlation studies informed the selection of input variables for machine learning models. These models were designed to forecast potential crime hotspots and support spatial visualization of high-risk regions.
