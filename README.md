@@ -36,7 +36,7 @@ Over the recent years, there have been numerous efforts made towards the underst
 
 Academic research has also explored the use of machine learning for crime prediction, focusing on specific cities or using smaller datasets. There have also been commercial tools that have been introduced into the market to provide additional approaches to crime prediction. A few examples of these studies and commercial tools include:  
 
-- **Mohler et al (2011)**
+- **[Mohler et al (2011)](https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.ap09546)**
   - Developed crime prediction models that were largely based on temporal patterns, using historical event timing to predict future crime events. While this study proved to be innovative in modeling time-based trends, it did not incorporate spatial context or socio-economic variables, limiting its applicability for regional policy planning. 
 - **Chainey & Ratcliffe (2005)**
   - Utilized Geographic Information System (GIS)-based mapping techniques to visualize criminal activity in space. Despite their effectivity in identifying historical hot spots, their work remained as a descriptive study and never reached the predictive modeling phase. 
@@ -58,3 +58,8 @@ This project builds on the ideas and foundations set in previous studies/works b
   - Ensuring reliable model performance across multiple counties and years involved hyperparameter tuning and cross-validation strategies.
 - **Maintaining reproducibility**
   - Ensuring that every step taken in this project could be reproduced by outside users involved clear documentation and standardized coding methods.
+ 
+# Data Overview
+This project utilizes three main datasets that capture the necessary data to fulfill the areas of crime statistics, socio-economic factors, and geographic boundaries. All data was collected and preprocessed for all 67 counties that compile the state of Florida, spanning the time range of the years of 2015 through 2020.
+1) Crime Data
+  - **Source:** Florida Department of Law Enforcement
