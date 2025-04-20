@@ -125,4 +125,4 @@ All datasets were loaded in using the .csv and .shp formats to ensure consistenc
 The initial EDA phase provides key insights into crime patterns and socio-economic disparities across Florida’s 67 counties from 2015 to 2020.  
 
 Distribution of Crime types:
-![Violent Crimes Distribution](Project Results/EDA Charts/Violent Crimes Distribution Pie Chart.jpg)
+![Violent Crimes Distribution](Project%20Results/EDA%20Charts/Violent%20Crimes%20Distribution%20Pie%20Chart.jpg)
