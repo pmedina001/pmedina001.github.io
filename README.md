@@ -29,3 +29,9 @@ With the advancements being made in the **Data Science** field, the tools and me
 1) Which Florida counties show signs of future crimes based on spatial-temporal patterns?
 2) Which **Socio-Economic factors** correlate the most with crime?
 3) How does integrating **Geosapatial data** and **AI** improve prediction accuracy?
+
+# Prior Arts & Challenges
+## Prior Arts
+Previous projects have explored the topic of crime prediction using Machine Learning. Some projects vary in the data that they use. While these projects have provided valuable insights, a notable limitation in many of them is the lack of integration of Geospatial data. This leads to a failure of capturing critical location-based trends that could help to improve prediction accuracy and policy relevance. This project aims to build upon the shortcomings found in previous works by integrating Geospatial analysis with the initial Crime and Socio-Economic Factors data.  
+
+Example of Prior Arts
