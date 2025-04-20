@@ -200,6 +200,12 @@ Three machine learning models were developed and trained in Python using the sci
       - **R^2 Score** (Coefficient of Determination) – indicates how well variance is explained (the higher the better)
 
 
+# Results
+## Model Performance
+Robbery was the best-predicted crime type, with XGBoost and Random Forest achieving an R^2 above 0.3. Motor Vehicle Theft also showed moderate predictability under Random Forest, with lower RMSE. Murder, Rape, and Aggravated Assault had poor R^2 scores across all models, indicating that these crimes may be influenced by variables not used in this project. Larceny and Burglary also had moderate predictability but high variance. 
 
+## Importance of Socio-Economic Factors for Predictions
+![Importance of Socio-Economic Factors for Predictions](Project%20Results/Top%20Predictive%20Socio-Economic%20Factors/Importance%20of%20Socio%20Economic%20Factors%20for%20Predictions.png)  
 
+To support the feature selection process, feature importance values were extracted from each model during the training phase. These values show the relative importance of each socio-economic factor on predicting specific crime types. These charts were created for the crime type that was predicted the best by each model. Across all three models, factors such as Population Density, Housing Units, and Employment Rates consistently emerged as top key predictors, aligning closely with the results gathered during the correlation analysis phase.
 
