@@ -24,3 +24,8 @@ The resulting Github offers a reproducible platform for all types of stakeholder
 Crime has been a persistent public safety concern that impacts not only Florida, but all communities across the world. Traiditional approaches have been used to analuze crime trends, but they often lack the spatial and predictive depth needed to be able to predict future crime risks. Law enforcement agencies and policymakkers have stressed the need of tools that are able to go beyond traditional statistical methods to identify high-risk areas and address socio-economic conditions that may lead to an increase in crime activity.  
 
 With the advancements being made in the **Data Science** field, the tools and methods available can help to provide a data-driven approach to crime prediction. Using historical crime data with county-level socio-economic factors and spatial analysis, this study aims to uncover patterns and relationships between crime types and socio-economic indicators. By applying machine learning modeling and geospatial visualizations, all predictions made are visualized to provide a better understanding of the relationships uncovered.
+
+# Research Questions
+1) Which Florida counties show signs of future crimes based on spatial-temporal patterns?
+2) Which **Socio-Economic factors** correlate the most with crime?
+3) How does integrating **Geosapatial data** and **AI** improvde prediction accuracy?
