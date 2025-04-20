@@ -136,4 +136,18 @@ This imbalance between the crime types confirms that property crimes are far mor
 
 Bar charts were generated to visualize the regional comparison of crime totals per each region. Property crimes consistently exceeded violent crimes in all regions. Central and South Florida reported the highest levels of property crimes. South Florida had the highest volume of violent crimes, suggesting a need for a deeper localized analysis. 
 
+**Regional Socio-Economic Distributions:**  
+![Regional Socio-Economic Distributions](Project%20Results/EDA%20Charts/Regional%20Socio%20Economic%20Distributions.png)  
+
+**Income & Education**  
+South Florida reported the highest median household income and educational attainment levels, suggesting greater access to education and higher-paying jobs. North Florida had the lowest income and education levels across all counties.  
+
+**Poverty & Employment**  
+North Florida showed higher poverty rates and lower employment levels compared to other regions. Central Florida maintained a more balanced level of socio-economic metrics across all factors.  
+
+**Housing & Population Density**  
+South Florida had the highest number of housing units and was the most densely populated region by far, followed by Central Florida. North Florida, being more rural, showed lower density and fewer housing units.  
+
+
+
 
