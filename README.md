@@ -209,3 +209,9 @@ Robbery was the best-predicted crime type, with XGBoost and Random Forest achiev
 
 To support the feature selection process, feature importance values were extracted from each model during the training phase. These values show the relative importance of each socio-economic factor on predicting specific crime types. These charts were created for the crime type that was predicted the best by each model. Across all three models, factors such as Population Density, Housing Units, and Employment Rates consistently emerged as top key predictors, aligning closely with the results gathered during the correlation analysis phase.
 
+## Actual vs. Predicted Crime Rates
+![Actual vs. Predicted Crime Rates](Project%20Results/Model%20Accuracy%20%28Actual%20vs.%20Predicted%20Crime%20Rates%29/Actual%20vs%20Predicted%20Crime%20Rates.png)  
+
+To finalize the evaluation of the performance of the models, scatterplots were generated to compare the predicted vs. actual crime rates for the three best predicted crime types: Robbery, Larceny, and Motor Vehicle Theft. These plots provide an assessment of the accuracy of the predictions, with each data point representing a county of Florida. The red dashed line represents a perfect 1:1 prediction.  
+
+As shown in the plots above, XGBoost has the strongest performance for predicting Robbery rates, as the predicted values where closely aligned within the acutal rates. The Random Forest model for Larceny followed a consistent upward trend with the actual data, indicating moderate predictive reliability. The Random Forest model for Motor Vehicle Theft had the highest variance, with many predictions falling below the 1:1 line.
