@@ -36,7 +36,7 @@ Over the recent years, there have been numerous efforts made towards the underst
 
 Academic research has also explored the use of machine learning for crime prediction, focusing on specific cities or using smaller datasets. There have also been commercial tools that have been introduced into the market to provide additional approaches to crime prediction. A few examples of these studies and commercial tools include:  
 - Mohler et al (2011)
-  - Sub-item 1
+  - Developed crime prediction models that were largely based on temporal patterns, using historical event timing to predict future crime events. While this study proved to be innovative in modeling time-based trends, it did not incorporate spatial context or socio-economic variables, limiting its applicability for regional policy planning. 
 - Chainey & Ratcliffe (2005)
   - Sub-item 2
 - Wang et al. (2013)
