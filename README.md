@@ -223,4 +223,23 @@ As shown in the maps above, the spatial distribution of predicted crime risk rev
   - **South Florida** consistently ranked the highest In predicted crime across both violent and property crimes.
   - **Central Florida** also emerged as a notable hotspot, especially for crimes such as larceny, burglary, and motor vehicle theft.
   - **North Florida** tended to have lower predicted crime rates overall, though a few of its’ counties stood out with elevated risks in specific crime types.
-  - The maps also highlight disparities in rural counties, where predictions showed more variability. This is likely due to factors such as lower population sizes and smaller incident counts. 
+  - The maps also highlight disparities in rural counties, where predictions showed more variability. This is likely due to factors such as lower population sizes and smaller incident counts.
+
+# Conclusion
+## Interpreting Findings
+The results gathered from this project have confirmed that machine learning models and data science methods, when paired with socio-economic, historical crime, and geospatial data, can provide meaningful insights. Among the various crime types studies, **property crimes** were the most accurately predicted across the 3 models used. The **XGBoost and Random Forest** models have the best R^2 scores (above 0.3). These crimes are more prevalent and are greatly influenced by the socio-economic factors that were studied in this project.  
+
+In contrast, the violent crimes had an overall lower accuracy in their predictions. These crime types may be influenced by external factors that were not analyzed in this project, such as policing strategies, accessibility to weapons, etc. This gap highlights the limitations of relying solely on demographic and economic indicators for certain categories of crime. 
+
+## Feature & Model Insights
+The feature importance rankings that were generated in the feature selection phase closely align with the patterns that were discovered during the correlation analysis phase. **Population Density, Housing Units, and Employment Rates** consistently emerged as the most influential factors across different crime types. **Educational Attainment Levels** had a moderate influence, but the impact varied slightly depending on the crime category.  
+
+Out of all of the models, **XGBoost** had a slightly better performance than Random Forest on most tasks. **Decision Trees**, while used as a baseline model, was outperformed in all categories.  
+
+## Overall Conclusions
+  - **Property Crimes** were easier predict than **violent crimes** likely due to the more consistent influence of socio-economic factors.
+  - **XGBoost** emerged as the best performing and most accurate model overall.
+  - The use of **geospatial data** made the results more interpretable and applicable, transforming raw predictions into **visual data** than can inform real-world decisions.
+
+
+
