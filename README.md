@@ -13,4 +13,5 @@
 
 **Capstone Course Professor: Ananda Mondal**  
 
-
+# Abstract
+This project aims to explore the integration of machine learning, socio-economic data, & geospatial analysis to identify and predict crime hotspots across all of the counties in the state of Florida. 
