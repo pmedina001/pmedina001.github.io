@@ -151,7 +151,11 @@ South Florida had the highest number of housing units and was the most densely p
 ## Correlation Analysis & Feature Selection
 Correlation analysis was performed in R using the corrplot library to visualize the correlation between the socio-economic factors and the various crime types. The factors that had the highest correlation with the crime types were selected. Feature importance was computed from the trained Random Forest model in python to rank predictors based on their influence on crime prediction.  
 
+2 correlation matrices were generated within R using the corrplot library. These matrices visualize the relationship between each socio-economic factor and the violent/property crime types.  
 
+![Violent & Property Crime Correlation Heatmap](Project%20Results/Correlation%20Analysis%20Matrices/Violent%20%26%20Property%20Crime%20Correlation%20Heatmap.png)  
+
+Poverty Rate and Housing Units showed the strongest positive correlations with both violent and property crimes. Educational Attainment levels and Employment Rates had moderate correlations with the crime types. Poverty Rates had a negative correlation with property crime types, suggesting counties with higher poverty tend to have higher crime rates. Median Household Income showed the weakest correlations with both crime types, suggesting that even wealthier areas are prone to crime. 
 
 
 
