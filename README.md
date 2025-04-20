@@ -34,5 +34,12 @@ With the advancements being made in the **Data Science** field, the tools and me
 ## Prior Arts
 Over the recent years, there have been numerous efforts made towards the understanding and prediction of crime using statistical and computational methods. Traditional approaches have included hot spot mapping through kernel density estimation, regression-based predictions, and crime trend dashboards utilized and maintained by law enforcement agencies. While these methods provide valuable insights and serve as accomplishments in the field of crime prediction, they often lack the integration of socio-economic context or predictive modeling capabilities.  
 
-Academic research has also explored the use of machine learning for crime prediction, focusing on specific cities or using smaller datasets. There have also been commercial tools that have been introduced into the market to provide additional approaches to crime prediction. A few examples of these studies and commercial tools include:
-
+Academic research has also explored the use of machine learning for crime prediction, focusing on specific cities or using smaller datasets. There have also been commercial tools that have been introduced into the market to provide additional approaches to crime prediction. A few examples of these studies and commercial tools include:  
+- Mohler et al (2011)
+  - Sub-item 1
+- Chainey & Ratcliffe (2005)
+  - Sub-item 2
+- Wang et al. (2013)
+  - Sub-item 2
+- PredPol (Geolitica)
+  - Sub-item 2
