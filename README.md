@@ -117,3 +117,12 @@ This project utilizes three main datasets that capture the necessary data to ful
       - **matplotlib & seaborn** – used for creating plots and visualizations
       - **geopandas** – used for loading geospatial data and plotting (county shapefiles)
       - **shapely, plotly** – advanced spatial joins and interactive maps
+
+## Data Preparation
+All datasets were loaded in using the .csv and .shp formats to ensure consistency. County crime counts were normalized as **incidents per 100,000** people using the available population data. All datasets were merged using the county_name or GEOID using the pandas library within Python and the dplyr library within RStudio. The geospatial shapefiles collected from the TIGER/LINE 2020 dataset were filtered to include only Florida counties (STATEFP = 12), and all geometry was preserved. 
+
+## Exploratory Data Analysis (EDA)
+The initial EDA phase provides key insights into crime patterns and socio-economic disparities across Florida’s 67 counties from 2015 to 2020.  
+
+Distribution of Crime types:
+
