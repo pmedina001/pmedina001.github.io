@@ -38,8 +38,8 @@ Academic research has also explored the use of machine learning for crime predic
 - Mohler et al (2011)
   - Developed crime prediction models that were largely based on temporal patterns, using historical event timing to predict future crime events. While this study proved to be innovative in modeling time-based trends, it did not incorporate spatial context or socio-economic variables, limiting its applicability for regional policy planning. 
 - Chainey & Ratcliffe (2005)
-  - Sub-item 2
+  - Utilized Geographic Information System (GIS)-based mapping techniques to visualize criminal activity in space. Despite their effectivity in identifying historical hot spots, their work remained as a descriptive study and never reached the predictive modeling phase. 
 - Wang et al. (2013)
-  - Sub-item 2
+  - Introduced the use of demographic data in crime modeling, highlighting the importance of socio-economic factors. However, this study was a much simpler study and never dove into the aspect of geospatial modeling. As such, it never produced spatially interpretable outputs.
 - PredPol (Geolitica)
-  - Sub-item 2
+  - A commercial predictive policing tool that was introduced in the market. It has gained popularity for its ability to predict future crime locations using proprietary algorithms. However, it’s been criticized time after time for being a “black box” solution, meaning that the answers it produces lack transparency, reproducibility, and the inclusion of socio-economic context. This makes is difficult to evaluate/adapt for public policy use.
