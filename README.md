@@ -75,3 +75,10 @@ This project utilizes three main datasets that capture the necessary data to ful
           - **Burglary** – Number of reported burglary cases
           - **Larceny** – Number of reported theft cases
           - **Motor Vehicle Theft** – Number of reported vehicle thefts
+  - **Derived variables:**
+      - **Total Violent Crime**
+          - Murder + Rape + Robbery + Aggravated Assault
+      - **Total Property Crime**
+          - Burglary + Larceny + Motor Vehicle Theft
+      - All crime counts were normalized to Incidents per 100,000 people (done during preprocessing)
+  - Data was split into the 3 regions of Florida (North Florida, Central Florida, & South Florida) for regional analysis.
