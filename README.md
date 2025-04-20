@@ -126,4 +126,3 @@ The initial EDA phase provides key insights into crime patterns and socio-econom
 
 Distribution of Crime types:
 ![Violent Crimes Distribution](Project Results/EDA Charts/Violent Crimes Distribution Pie Chart.jpg)
-
