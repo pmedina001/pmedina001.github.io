@@ -157,6 +157,16 @@ Correlation analysis was performed in R using the corrplot library to visualize 
 
 Poverty Rate and Housing Units showed the strongest positive correlations with both violent and property crimes. Educational Attainment levels and Employment Rates had moderate correlations with the crime types. Poverty Rates had a negative correlation with property crime types, suggesting counties with higher poverty tend to have higher crime rates. Median Household Income showed the weakest correlations with both crime types, suggesting that even wealthier areas are prone to crime. 
 
+**Heatmaps of Actual Crime Rates**    
+To complement the correlation analysis, spatial heatmaps were created to visualize the actual distribution of the crime types across Florida. These maps provide insights into regional crime concentrations.  
+
+![Actual Crime Rates](Project%20Results/Actual%20Crime%20Rates%20Heatmaps/Actual%20Crime%20Rates.png)  
+
+![Socio-Economic Factors Heatmap](Project%20Results/Socio-Economic%20Factors%20Heatmaps/Socio%20Economic%20Factors%20Heatmap.png)  
+
+
+
+
 
 
 
