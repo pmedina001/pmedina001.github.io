@@ -1,5 +1,6 @@
 # Pedro J Medina - Capstone Project: Crime Hotspot Prediction in Florida
-Pedro J Medina  
+Pedro J Medina
+
 Panther ID: 6191466  
 Github created as part of the Masters in Data Science Capstone Project Program.  
 April 2025  
