@@ -131,3 +131,9 @@ As presented in the pie charts above, **Aggravated Assault** made up the majorit
 
 This imbalance between the crime types confirms that property crimes are far more prevalent than violent crimes statewide.  
 
+**Regional Crime Patterns:**  
+![Regional Comparison Barchart](Project%20Results/EDA%20Charts/Violent%20%26%20Property%20Crimes%20Regional%20Comparison%20Barchart.jpg)  
+
+Bar charts were generated to visualize the regional comparison of crime totals per each region. Property crimes consistently exceeded violent crimes in all regions. Central and South Florida reported the highest levels of property crimes. South Florida had the highest volume of violent crimes, suggesting a need for a deeper localized analysis. 
+
+
