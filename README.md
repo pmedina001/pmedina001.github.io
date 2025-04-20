@@ -61,7 +61,8 @@ This project builds on the ideas and foundations set in previous studies/works b
  
 # Data Overview
 This project utilizes three main datasets that capture the necessary data to fulfill the areas of crime statistics, socio-economic factors, and geographic boundaries. All data was collected and preprocessed for all 67 counties that compile the state of Florida, spanning the time range of the years of 2015 through 2020.
-1) Crime Data
+
+1) **Crime Data**
   - **Source:** [Florida Department of Law Enforcement](https://www.fdle.state.fl.us/CJAB/UCR/Annual-Reports/UCR-Offense-Data)
   - **Dataset(s) description:** Data was split into two datasets. One dataset (68 rows x 8 columns) represents the annual counts of reported violent crimes at the county level. The other dataset (68 rows x 7 columns) represents the annual counts of reported property crimes at the county levels.
   - **Data variable and units:**
@@ -70,3 +71,7 @@ This project utilizes three main datasets that capture the necessary data to ful
           - **Rape** – Number of reported rape cases
           - **Robbery** – Number of reported robbery cases
           - **Aggravated Assault** – Number of reported aggravated assault cases
+      - Property Crimes:
+          - **Burglary** – Number of reported burglary cases
+          - **Larceny** – Number of reported theft cases
+          - **Motor Vehicle Theft** – Number of reported vehicle thefts
