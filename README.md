@@ -82,3 +82,23 @@ This project utilizes three main datasets that capture the necessary data to ful
           - Burglary + Larceny + Motor Vehicle Theft
       - All crime counts were normalized to Incidents per 100,000 people (done during preprocessing)
   - Data was split into the 3 regions of Florida (North Florida, Central Florida, & South Florida) for regional analysis.
+
+2) **Socio-Economic Factors Data**
+  - **Source:** [U.S. Census Bureau – American Community Survey (ACS) 5-Year Estimates](https://data.census.gov/profile/Miami-Dade_County,_Florida?g=050XX00US12086)
+  - **Dataset(s) description:** Socio-economic indicators collected at the county-year level (68 rows x 8 columns)
+  - **Data variable and units:**
+      - **Median Household Income** – reported median income (USD) for households per county
+      - **Poverty Rate** – percent of total population living below poverty line
+      - **Unemployment Rate** – percent of civilian labor force (age 16+) that is unemployed
+      - **Educational Attainment Levels** – percent of adults (age 25+) with a Bachelor’s degree or higher
+      - **Homeownership Rates** – percent of occupied housing units that are owner occupied
+      - **Population Density** – people per square mile (people/mi²) calculated by dividing population by county area
+      - **Total Population** – total number of residents per county
+
+3) **Florida County Geospatial Data**
+  - **Source:** [U.S. Census Bureau TIGER/LINE 2020](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html#list-tab-790442341)
+  - **Dataset(s) description:** Geospatial shapefiles used to map Florida’s 67 counties (67 rows x 13 columns).
+  - **Data variable and units:**
+      - **STATEFP, COUNTYFP, GEOID** – Federal and geographic codes
+      - **NAME** – County name
+      - **geometry** - Polygon coordinates for each county
