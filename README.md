@@ -124,5 +124,10 @@ All datasets were loaded in using the .csv and .shp formats to ensure consistenc
 ## Exploratory Data Analysis (EDA)
 The initial EDA phase provides key insights into crime patterns and socio-economic disparities across Florida’s 67 counties from 2015 to 2020.  
 
-Distribution of Crime types:  
-![Distribution of Crimes](Project%20Results/EDA%20Charts/Distribution%20of%20Crimes.png)
+**Distribution of Crime types:** 
+![Distribution of Crimes](Project%20Results/EDA%20Charts/Distribution%20of%20Crimes.png)  
+
+As presented in the pie charts above, **Aggravated Assault** made up the majority of violent crimes (66.9%), followed by Robbery (23.1%), Rape (8.8%), and Murder (1.1%). For property crimes, **Larceny** dominated the total count (76.6%), followed by Burglary (19.6%) and Motor Vehicle Theft (3.7%). The total amount of violent crimes in the dataset is **516,697** and **1,807,105** for property crimes.
+
+This imbalance between the crime types confirms that property crimes are far more prevalent than violent crimes statewide.  
+
