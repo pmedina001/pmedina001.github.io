@@ -102,3 +102,18 @@ This project utilizes three main datasets that capture the necessary data to ful
       - **STATEFP, COUNTYFP, GEOID** – Federal and geographic codes
       - **NAME** – County name
       - **geometry** - Polygon coordinates for each county
+
+# Methodology
+## Tools Used
+  - **R Studio** (version **4.3.1**)
+      - **dplyr & tidyverse** – used for manipulating data and wrangling
+      - **ggplot2, sf & tmap** – used for visualizations and geospatial plotting
+      - **readr & janitor** – used for cleaning all data
+      - **corrplot & psych** - used to generate correlation matrices and perform exploratory analysis
+   
+  - **Python** (version **3.10**)
+      - **pandas & numpy** – used for manipulating data
+      - **scikit-learn** – used for model training, feature selection, and model evaluation (RandomForestClassifier, SVC, train_test_split, GridSearchCV)
+      - **matplotlib & seaborn** – used for creating plots and visualizations
+      - **geopandas** – used for loading geospatial data and plotting (county shapefiles)
+      - **shapely, plotly** – advanced spatial joins and interactive maps
