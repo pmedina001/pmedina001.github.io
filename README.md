@@ -38,11 +38,11 @@ Academic research has also explored the use of machine learning for crime predic
 
 - **[Mohler et al (2011)](https://www.tandfonline.com/doi/abs/10.1198/jasa.2011.ap09546)**
   - Developed crime prediction models that were largely based on temporal patterns, using historical event timing to predict future crime events. While this study proved to be innovative in modeling time-based trends, it did not incorporate spatial context or socio-economic variables, limiting its applicability for regional policy planning. 
-- **Chainey & Ratcliffe (2005)**
+- **[Chainey & Ratcliffe (2005)](https://www.wiley.com/en-us/GIS+and+Crime+Mapping-p-9781118685198)**
   - Utilized Geographic Information System (GIS)-based mapping techniques to visualize criminal activity in space. Despite their effectivity in identifying historical hot spots, their work remained as a descriptive study and never reached the predictive modeling phase. 
-- **Wang et al. (2013)**
+- **[Wang et al. (2013)](https://www.researchgate.net/publication/309351102_Crime_Rate_Inference_with_Big_Data)**
   - Introduced the use of demographic data in crime modeling, highlighting the importance of socio-economic factors. However, this study was a much simpler study and never dove into the aspect of geospatial modeling. As such, it never produced spatially interpretable outputs.
-- **PredPol (Geolitica)**
+- **[PredPol (Geolitica)](https://en.wikipedia.org/wiki/Geolitica)**
   - A commercial predictive policing tool that was introduced in the market. It has gained popularity for its ability to predict future crime locations using proprietary algorithms. However, it’s been criticized time after time for being a “black box” solution, meaning that the answers it produces lack transparency, reproducibility, and the inclusion of socio-economic context. This makes is difficult to evaluate/adapt for public policy use.
 
 This project builds on the ideas and foundations set in previous studies/works by combining predictive modeling, demographic and economic context, and geospatial mapping into a solid and reproducible framework focused on Florida’s 67 counties. 
