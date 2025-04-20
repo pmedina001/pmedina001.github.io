@@ -215,3 +215,12 @@ To support the feature selection process, feature importance values were extract
 To finalize the evaluation of the performance of the models, scatterplots were generated to compare the predicted vs. actual crime rates for the three best predicted crime types: Robbery, Larceny, and Motor Vehicle Theft. These plots provide an assessment of the accuracy of the predictions, with each data point representing a county of Florida. The red dashed line represents a perfect 1:1 prediction.  
 
 As shown in the plots above, XGBoost has the strongest performance for predicting Robbery rates, as the predicted values where closely aligned within the acutal rates. The Random Forest model for Larceny followed a consistent upward trend with the actual data, indicating moderate predictive reliability. The Random Forest model for Motor Vehicle Theft had the highest variance, with many predictions falling below the 1:1 line.
+
+## Predictions Visualizations
+![Predicted Crime Rates](Project%20Results/Predicted%20Crime%20Risks%20Heatmaps/Predicted%20Crime%20Rates.png)  
+
+As shown in the maps above, the spatial distribution of predicted crime risk reveals distinct regional patterns:  
+  - **South Florida** consistently ranked the highest In predicted crime across both violent and property crimes.
+  - **Central Florida** also emerged as a notable hotspot, especially for crimes such as larceny, burglary, and motor vehicle theft.
+  - **North Florida** tended to have lower predicted crime rates overall, though a few of its’ counties stood out with elevated risks in specific crime types.
+  - The maps also highlight disparities in rural counties, where predictions showed more variability. This is likely due to factors such as lower population sizes and smaller incident counts. 
