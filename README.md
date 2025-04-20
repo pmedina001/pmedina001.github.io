@@ -28,4 +28,4 @@ With the advancements being made in the **Data Science** field, the tools and me
 # Research Questions
 1) Which Florida counties show signs of future crimes based on spatial-temporal patterns?
 2) Which **Socio-Economic factors** correlate the most with crime?
-3) How does integrating **Geosapatial data** and **AI** improvde prediction accuracy?
+3) How does integrating **Geosapatial data** and **AI** improve prediction accuracy?
