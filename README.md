@@ -35,6 +35,7 @@ With the advancements being made in the **Data Science** field, the tools and me
 Over the recent years, there have been numerous efforts made towards the understanding and prediction of crime using statistical and computational methods. Traditional approaches have included hot spot mapping through kernel density estimation, regression-based predictions, and crime trend dashboards utilized and maintained by law enforcement agencies. While these methods provide valuable insights and serve as accomplishments in the field of crime prediction, they often lack the integration of socio-economic context or predictive modeling capabilities.  
 
 Academic research has also explored the use of machine learning for crime prediction, focusing on specific cities or using smaller datasets. There have also been commercial tools that have been introduced into the market to provide additional approaches to crime prediction. A few examples of these studies and commercial tools include:  
+
 - **Mohler et al (2011)**
   - Developed crime prediction models that were largely based on temporal patterns, using historical event timing to predict future crime events. While this study proved to be innovative in modeling time-based trends, it did not incorporate spatial context or socio-economic variables, limiting its applicability for regional policy planning. 
 - **Chainey & Ratcliffe (2005)**
@@ -43,3 +44,5 @@ Academic research has also explored the use of machine learning for crime predic
   - Introduced the use of demographic data in crime modeling, highlighting the importance of socio-economic factors. However, this study was a much simpler study and never dove into the aspect of geospatial modeling. As such, it never produced spatially interpretable outputs.
 - **PredPol (Geolitica)**
   - A commercial predictive policing tool that was introduced in the market. It has gained popularity for its ability to predict future crime locations using proprietary algorithms. However, it’s been criticized time after time for being a “black box” solution, meaning that the answers it produces lack transparency, reproducibility, and the inclusion of socio-economic context. This makes is difficult to evaluate/adapt for public policy use.
+
+This project builds on the ideas and foundations set in previous studies/works by combining predictive modeling, demographic and economic context, and geospatial mapping into a solid and reproducible framework focused on Florida’s 67 counties. 
