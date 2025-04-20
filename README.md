@@ -64,3 +64,9 @@ This project utilizes three main datasets that capture the necessary data to ful
 1) Crime Data
   - **Source:** [Florida Department of Law Enforcement](https://www.fdle.state.fl.us/CJAB/UCR/Annual-Reports/UCR-Offense-Data)
   - **Dataset(s) description:** Data was split into two datasets. One dataset (68 rows x 8 columns) represents the annual counts of reported violent crimes at the county level. The other dataset (68 rows x 7 columns) represents the annual counts of reported property crimes at the county levels.
+  - **Data variable and units:**
+      - [Violent Crimes]:
+          - Murder – Number of reported homicide cases
+          - Rape – Number of reported rape cases
+          - Robbery – Number of reported robbery cases
+          - Aggravated Assault – Number of reported aggravated assault cases
