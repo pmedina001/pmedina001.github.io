@@ -174,7 +174,30 @@ The features that were selected for the modeling phase were:
   - **Employment Rates**
   - **Poverty Rates**
 
+## Predictive Modeling
+Three machine learning models were developed and trained in Python using the scikit-learn and XGBoost libraries to predict crime levels based on the previously selected socio-economic features. The predictions were measured in terms of **county-level crime rate per 100,000 residents**. Each model was trained to predict violent and property crime rates for all Florida counties.  
 
+1) **Decision Tree Regressor**
+     - Simple, interpretable baseline model used to establish foundational accuracy.
+     - Provides a clear view of decision rules and feature splits.
+     - Prone to overfitting on small datasets, but useful for comparing models.
+       
+2) **Random Forest Regressor**
+     - Ensemble model that builds multiple decision trees and aggregates their predictions to improve generalization.
+     - Handles non-linear relationships and reduces overfitting through bootstrapped sampling and averaging.
+     - Feature importance values were extracted using .feature_importances_.
+       
+3) **XGBoost Regressor**
+     - High-performance gradient boosting algorithm with built-in regularization.
+     - Tuned using GridSearchCV to optimize learning rate (eta), tree depth, and subsample ratio.
+     - Especially effective in handling unbalanced data and noisy features. 
+
+**Training and Evaluation Strategy:**
+  - **Train-test split**: 80% training, 20% testing
+  - **Cross-validation**: 5 fold cross-validation used to ensure model robustness
+  - **Evaluation metrics**:
+      - **RMSE (Root Mean Squared Error)** – measures the prediction error (the lower the better)
+      - **R^2 Score** (Coefficient of Determination) – indicates how well variance is explained (the higher the better)
 
 
 
