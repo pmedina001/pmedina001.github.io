@@ -148,6 +148,13 @@ North Florida showed higher poverty rates and lower employment levels compared t
 **Housing & Population Density**  
 South Florida had the highest number of housing units and was the most densely populated region by far, followed by Central Florida. North Florida, being more rural, showed lower density and fewer housing units.  
 
+## Correlation Analysis & Feature Selection
+Correlation analysis was performed in R using the corrplot library to visualize the correlation between the socio-economic factors and the various crime types. The factors that had the highest correlation with the crime types were selected. Feature importance was computed from the trained Random Forest model in python to rank predictors based on their influence on crime prediction.  
+
+
+
+
+
 
 
 
